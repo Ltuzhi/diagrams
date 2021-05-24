@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T07:39:18.435Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="qmusa4XCavY0I3A2Jrat" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T07:52:40.127Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="5o8OTQETrrIO8L-GCHMv" version="14.7.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1030" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="160" y="30" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h6Y0QeOJOULvV2HpZk1Y-3" value="设备ID是否&lt;br&gt;在黑名单中？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="290" width="100" height="100" as="geometry" />
+          <mxGeometry x="410" y="290" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="h6Y0QeOJOULvV2HpZk1Y-8" value="返回错误，code 0&lt;br&gt;请求错误&lt;br&gt;重新发送注册包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="350" y="145" width="120" height="50" as="geometry" />
@@ -54,27 +54,27 @@
         </mxCell>
         <mxCell id="h6Y0QeOJOULvV2HpZk1Y-23" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="h6Y0QeOJOULvV2HpZk1Y-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="390" as="sourcePoint" />
-            <mxPoint x="480" y="460" as="targetPoint" />
+            <mxPoint x="460" y="390" as="sourcePoint" />
+            <mxPoint x="460" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h6Y0QeOJOULvV2HpZk1Y-25" value="返回失败，code 3&lt;br&gt;已被列入黑名单&lt;br&gt;间隔/不再发送注册包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="315" width="120" height="50" as="geometry" />
+          <mxGeometry x="590" y="315" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="h6Y0QeOJOULvV2HpZk1Y-28" value="" style="endArrow=block;html=1;shadow=0;labelBackgroundColor=none;endSize=8;strokeWidth=1;endFill=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="h6Y0QeOJOULvV2HpZk1Y-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="340" as="sourcePoint" />
-            <mxPoint x="830" y="380" as="targetPoint" />
+            <mxPoint x="510" y="340" as="sourcePoint" />
+            <mxPoint x="810" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h6Y0QeOJOULvV2HpZk1Y-29" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="545" y="315" width="40" height="20" as="geometry" />
+          <mxGeometry x="525" y="315" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="h6Y0QeOJOULvV2HpZk1Y-30" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="485" y="400" width="30" height="20" as="geometry" />
+          <mxGeometry x="465" y="400" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="h6Y0QeOJOULvV2HpZk1Y-32" value="返回成功，code 2&lt;br&gt;等待设备接入&lt;br&gt;继续发送注册信息&lt;br&gt;信息录入，Is_connected = 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="400" y="450" width="160" height="70" as="geometry" />
+          <mxGeometry x="380" y="450" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="h6Y0QeOJOULvV2HpZk1Y-33" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="h6Y0QeOJOULvV2HpZk1Y-35">
           <mxGeometry relative="1" as="geometry">
@@ -85,8 +85,56 @@
         <mxCell id="h6Y0QeOJOULvV2HpZk1Y-34" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="450" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-35" value="设备ID是否&lt;br&gt;存在？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-35" value="是否已接入&lt;br&gt;系统" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="540" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-36" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="h6Y0QeOJOULvV2HpZk1Y-45" source="h6Y0QeOJOULvV2HpZk1Y-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="645" as="sourcePoint" />
+            <mxPoint x="220" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-38" value="" style="endArrow=block;html=1;shadow=0;labelBackgroundColor=none;endSize=8;strokeWidth=1;endFill=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="h6Y0QeOJOULvV2HpZk1Y-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="590" as="sourcePoint" />
+            <mxPoint x="400" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-39" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="565" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-40" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="655" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-43" value="返回成功，code 2&lt;br&gt;等待设备接入&lt;br&gt;继续发送注册信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="562.5" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-45" value="是否在线" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="710" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-46" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h6Y0QeOJOULvV2HpZk1Y-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="815" as="sourcePoint" />
+            <mxPoint x="220" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-47" value="" style="endArrow=block;html=1;shadow=0;labelBackgroundColor=none;endSize=8;strokeWidth=1;endFill=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="760" as="sourcePoint" />
+            <mxPoint x="380" y="759.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-48" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="735" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-49" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="825" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-50" value="返回成功，code 1&lt;br&gt;设备接入成功&lt;br&gt;准备接收设备心跳包&lt;br&gt;更改数据库信息，Is_online=1, starttime=now" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="725" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h6Y0QeOJOULvV2HpZk1Y-51" value="返回成功，code 1&lt;br&gt;设备接入成功&lt;br&gt;继续接收设备心跳包&lt;br&gt;更改数据库信息，heartbeat = now" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="880" width="260" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
